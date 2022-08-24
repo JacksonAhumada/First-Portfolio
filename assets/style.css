@@ -1,0 +1,133 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: sans-serif;
+	background-color: #fff;
+    min-height: 100vh
+}
+
+
+
+
+header {
+	display: flex;
+
+	flex-wrap: wrap;
+	justify-content: space-between;
+	color: white;
+	text-align: center;
+	background-color: #13293d;
+	padding: 10px 25px;
+}
+
+nav {
+	display: flex;
+	
+	justify-content: flex-end;
+	background-color: rgb(11, 72, 11);
+	color: white;
+}
+
+nav a {
+	color: white;
+	padding: 14px 20px;
+	text-decoration: underline;
+	margin: 20px;
+}
+.hero-image {
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cr;
+	position: relative;
+}
+
+main {
+	margin: auto;
+	max-width: 1400px;
+}
+
+p {
+	background-color: rgb(11, 72, 11);
+	color: white;
+	padding: 14px 20px;
+}
+
+.about-me {
+	display: flex;
+	align-items: stretch;
+}
+
+.about-me > *:nth-child(1) {
+	flex: 1 1 10%;
+}
+
+.about-me > *:nth-child(2) {
+	flex: 1 1 90%;
+	margin: 5px;
+} 
+
+.work-section {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.work-section > *:nth-child(1) {
+	flex: 1 1 10%;
+}
+
+.work-section > *:nth-child(2) {
+	flex: 1 1 90%;
+} 
+
+.projects {
+	display: flex; 
+	flex-wrap: wrap;
+	row-gap: 10px;
+}
+
+.projects > *:nth-child(1){
+flex: 1 1 100%;
+}
+
+.projects > *:nth-child(2){
+flex: 1 1 50%;
+}
+	
+.projects > *:nth-child(3){
+flex: 1 1 50%;
+}
+
+.projects > *:nth-child(4){
+flex: 1 1 50%;
+}
+			
+.projects > *:nth-child(5){
+flex: 1 1 50%;
+}
+
+.main-project {
+    background-color: teal;
+	padding: 10px;
+	margin: 5px;
+}
+
+.future-project {
+    background-color: teal;
+	padding: 10px;
+	margin: 0px auto;
+	max-width: 49%;
+}
+
+
+
+
+
+
+
