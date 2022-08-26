@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: josefin sans;
   background-color: #fff;
   min-height: 100vh;
 }
@@ -31,7 +31,7 @@ nav {
   display: flex;
 
   justify-content: flex-end;
-  background-color: rgb(11, 72, 11);
+  background-color: rgb(5, 62, 77);
   color: white;
 }
 
@@ -50,8 +50,7 @@ nav a {
 }
 
 main {
-  margin: auto;
-  max-width: 1400px;
+  margin: 25px;
 }
 
 p {
@@ -59,8 +58,8 @@ p {
 }
 
 h1 {
-  color:rgb(62, 62, 170)
-
+  color:#13293d;
+  font-size: 2em;
 }
 
 .about-me {
@@ -82,34 +81,28 @@ h1 {
   background-image: url("../assets/images/code-refactor.jpg");
   background-size: 100% 100%;
   color: white;
- 
-  
+}
 
+.main-project a{
+  text-decoration: none;
 }
 
 .future-project {
   height: 150px;
   margin: 20px auto;
   color: #fff;
+  padding-top: 50px;
   
-  
 }
-
-
-.future-project h3{
-  background-color: #13293d;
-}
-
-.future-project p {
-  background-color: #13293d;
-}
-
-
-
  .future-project-1 {
   background-image: url("../assets/images/code-screen.jpg");
   background-size: 100% 100%;
 } 
+
+.future-project-background {
+  background-color:#13293d;
+  max-width: 150px;
+}
 
 .future-project-2 {
   background-image: url("../assets/images/red-circut.jpg");
@@ -126,10 +119,24 @@ h1 {
   background-size: 100% 100%;
 }
 
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: josefin sans;
+}
+
+
+
 /*========================================
 medium devices (640px and larger)
 ========================================= */
 @media only screen and (min-width: 640px) {
+  main {
+    margin: auto;
+    max-width: 800px;
+  }
+ 
   .about-me {
     display: flex;
     align-items: stretch;
@@ -190,10 +197,34 @@ medium devices (640px and larger)
     height: 350px;
   }
 
+  
+
   .future-project {
-    padding: 10px;
+    padding:50px 10px 10px 10px;
     margin: 0px auto;
     max-width: 49%;
     flex-wrap: wrap;
   }
+
+  .future-project-background {
+    background-color: #13293d;
+    max-width: 160px;
+  }
+
+  .future-project-background h3{
+padding: 10px 0px 0px 10px;}
+
+.future-project-background p{
+  padding: 0px 0px 5px 10px;}
+}
+
+
+/*========================================
+xl devices (1400px and larger)
+========================================= */
+@media only screen and (min-width: 1400px) {
+main {
+  margin: auto;
+  max-width: 1400px;
+}
 }
