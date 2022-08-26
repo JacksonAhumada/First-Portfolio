@@ -6,4 +6,4 @@ The purpose of this project was to create the first iteration of my portfolio. I
 
 ## Usage: 
 
-[Here is a link to the updated webpage!](https://jacksonahumada.github.io/Module-1-Challenge/)
+[Here is a link to my portfolio!](https://jacksonahumada.github.io/Module-2-Challenge/)
